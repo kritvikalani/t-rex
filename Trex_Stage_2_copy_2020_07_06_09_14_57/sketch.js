@@ -94,6 +94,7 @@ function draw() {
       if (obstaclesGroup.isTouching(trex)) {
       gameState= END
       dieSound.play();
+      }
         
         if (score>0 && score%100===0) {
           checkPointSound.play();
